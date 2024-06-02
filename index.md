@@ -9,11 +9,13 @@ title: "Northern Blade Translations"
 
 2. Copyrights to [Star Instructor Master Baek](/SIMB/) are held by the author, Ganjajang, and the artist, Oliboli. 
 
-3. Do not take credit or make a profit from our work. Our translations can be read for FREE, with NO ADS. We DO NOT ask for donations.
+3. Copyrights to [A Terminally Ill Genius's Guide to Survival](/TIGGS/) are held by the author, Seesaw. 
 
-4. Enjoy reading from what is probably the simplest looking translator's website, because minimalist themes are awesome.
+4. Do not take credit or make a profit from our work. Our translations can be read for FREE, with NO ADS. We DO NOT ask for donations.
 
-5. Don't bother asking for faster releases since I have a full-time job with frequent overtime. Commenting and liking the chapters does give me more motivation to translate though, which will result in faster releases.
+5. Enjoy reading from what is probably the simplest looking translator's website, because minimalist themes are awesome.
+
+6. Don't bother asking for faster releases since I have a full-time job with frequent overtime. Commenting and liking the chapters does give me more motivation to translate though, which will result in faster releases.
 
 ## Subscribe to our Series Specific RSS Feeds!
 
@@ -32,9 +34,16 @@ title: "Northern Blade Translations"
 	</svg><span>Subscribe to Star Instructor Master Baek</span>
   </a>
 </p>
+<p class="feed-subscribe">
+  <a href="{{ 'feed.tiggs.xml' | relative_url }}">
+	<svg class="svg-icon orange">
+	  <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+	</svg><span>Subscribe to A Terminally Ill Genius's Guide to Survival</span>
+  </a>
+</p>
 
 ## Ebooks
 
-Epubs for LNB can be found on the series page. New epubs will be made every 50 chapters or so.
+Epubs (if available) can be found on the series page.
 
 ## Latest Updates
