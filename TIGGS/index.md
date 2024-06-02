@@ -3,7 +3,7 @@ layout: pageTIGGS
 title: A Terminally Ill Genius's Guide to Survival
 ---
 
-![TIGGS](/Images/TIGGS.jpg)
+![TIGGS](/Images/TIGGS.png)
 
 ## Synopsis
 
