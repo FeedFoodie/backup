@@ -5,7 +5,7 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 
-<a class="site-title" rel="author" style="font-weight: bold; color: #444444;" href="..">NorthBladeTL</a>
+<span class="site-title" rel="author" style="font-weight: bold; color: #444444;">NorthBladeTL</span>
 
 <nav class="site-nav">
   <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -24,18 +24,18 @@
           <li>
             {% if entry.subsubfolderitems[0] %}
               <ul class="dropdown">
-                <button class="dropbtn"><a class="page-link">Novels</a></button>
-                <div class="dropdown-content">
+                <button class="dropbtn header-droplink" onclick="navbarDropdown()">{{ entry.name }}</button>
+                <div id="novelDropdown" class="dropdown-content">
                   {% for subentry in entry.subsubfolderitems %}
                     <li>
-                       <a class="page-link" href="{{ subentry.url }}">{{ subentry.name }}</a>
+                       <a class="header-link" href="{{ subentry.url }}">{{ subentry.name }}</a>
                     </li>
                   {% endfor %}
                 </div>
                </ul>
             {% else %}
-              <ul class="menu-link">
-                <button class="nondropbtn"><a class="page-link" href="{{ entry.url }}">{{ entry.name }}</a></button>
+              <ul class="dropdown">
+                <button class="dropbtn header-link" onclick="location.href='{{ entry.url }}'" type="button">{{ entry.name }}</button>
               </ul>              
             {% endif %}
           </li>
