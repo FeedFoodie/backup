@@ -19,13 +19,23 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Northern Blade Translations
-tagline: LNB/SIMB/TIGGS TL
+tagline: LNB/SIMB TL
 description: We provide free English Translations of Korean Novels with no ads.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://northbladetl.com" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
+markdown_ext: md
+kramdown:  
+  parse_block_html: true
 permalink: /:categories/:title:output_ext
 logo: /android-chrome-512x512.png
+pagination:
+  enabled: true
+  per_page: 10
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 
 # Build settings
 theme: minima
@@ -33,6 +43,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate-v2
   
 # Disqus Comments
 disqus:
